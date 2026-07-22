@@ -1,0 +1,42 @@
+export const PAYMENT_PROVIDERS = [
+  {
+    key: 'stripe',
+    name: 'Stripe',
+    desc: 'Global card payments & subscriptions',
+    color: '#635bff',
+    logo: 'S',
+    logoColor: 'bg-[#635bff]',
+  },
+  {
+    key: 'paypal',
+    name: 'PayPal',
+    desc: 'PayPal checkout + card payments',
+    color: '#009cde',
+    logo: 'P',
+    logoColor: 'bg-[#009cde]',
+  },
+  {
+    key: 'square',
+    name: 'Square',
+    desc: 'Great for US, Canada & Australia',
+    color: '#3e4348',
+    logo: 'SQ',
+    logoColor: 'bg-gray-800',
+  },
+  {
+    key: 'nmi',
+    name: 'NMI',
+    desc: 'White-label gateway for agencies',
+    color: '#0052cc',
+    logo: 'NMI',
+    logoColor: 'bg-blue-700',
+  },
+  {
+    key: 'authorize',
+    name: 'Authorize.net',
+    desc: 'Enterprise-grade reliability',
+    color: '#e01a22',
+    logo: 'AN',
+    logoColor: 'bg-red-600',
+  },
+];
